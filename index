@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      body {
+        background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBYyvk2?w=0&h=0&q=60&m=6&f=jpg&u=t); /* Замените этот URL на URL вашего изображения */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .column {
+  background-color: transparent; /* Это делает фон столбца прозрачным */
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: rgb(151, 15, 15);
+  font-size: 50px;
+  background-color: transparent;
+}
+.headerx{
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: rgb(223, 14, 14);
+  font-size: 30px;
+  background-color: transparent;
+}
+.vivod{
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: rgb(223, 14, 14);
+  font-size: 100px;
+  background-color: transparent;
+}
+      </style>
+  </head>
+<body>
+  <div id="output" class="vivod"></div>
+  <h1 class="header">НетДождю.ру</h1>
+  <h2 class="headerx">Лучший сайт для определения погоды</h2>
+  
+    <label for="weather" class="headerx">Выберите тип погоды сегодня: </label>
+    <select id="weather" class="column">
+      <option id="input" value="" class="header">--Сделайте выбор--</option>
+      <option id="sun" value="sunny">Солнечно</option>
+      <option id="rain" value="rainy">Дождливо</option>
+      <option id="snow" value="snowing">Снежно</option>
+      <option id="oblaki" value="overcast">Облачно</option>
+    </select>
+    <button id="buttonx" class="headerx">Узнать погоду</button>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="4.js"></script>
+</body>
+</html>
